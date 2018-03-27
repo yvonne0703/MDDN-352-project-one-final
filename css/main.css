@@ -1,0 +1,271 @@
+
+html {
+    font-family: 'Ayuthaya', sans-serif;
+    font-size: 25px;
+    color: #535D69;
+    overflow-x: hidden;
+
+}
+
+body {
+    width: 100%;
+}
+
+img{
+     max-width:100%;
+     height:auto;
+    }
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 75px;
+    background-color: #535D69;
+    z-index: 10;
+    -webkit-backdrop-filter: blur(25px);
+    transition: 0.2s;
+    
+}
+
+header h3 {
+    color: #E4E1EB;
+    font-size: 1.5rem;
+    line-height: 0.1rem;
+    text-align: center;
+}
+
+.body-section h2 {
+	color: black;
+	font-size: 20;
+    line-height: 1;
+	text-align: left;
+}
+
+.mobile-notifier {
+    display: none;
+    position: absolute;
+    top: 8px;
+    right: 5px;
+
+    color: rgba(200,50,42,0.8);
+    font-weight: 800;
+
+    border: solid 4px rgba(200,50,42,0.8);
+
+    padding: 5px 10px 5px 10px;
+
+    border-radius: 8px;
+
+}
+
+.hero {
+
+    height: 75vh;
+
+    background-image: url(../media/MDDN-352-1.png);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+
+
+.body-section {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 1.8rem;
+    text-align: left;
+   
+}
+.body2-section {
+    margin-top: 10px;
+    margin-bottom: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 1.8rem;
+    text-align: center;
+   
+}
+
+
+.body-flex {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.body2-flex {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.body-flex > div {
+
+    max-width: 400px;
+
+    flex-grow: 1;
+
+    max-height: 420px;
+
+    padding: 50px;
+    margin: 50px;
+    background-color: rgb(210,185,192);
+
+    box-shadow: 0px 3px 25px -5px rgba(25,35,25,0);
+    
+    transition: 0.5s ease;
+}
+
+.body2-flex > div {
+
+    max-width: 400px;
+
+    flex-grow: 1;
+
+    min-height: 430px;
+
+    padding: 50px;
+    margin: 50px;
+    background-color: rgb(195,208,217);
+
+    box-shadow: 0px 3px 25px -5px rgba(25,35,25,0);
+    
+    transition: 0.5s ease;
+}
+
+.body-flex h3 {
+    font-weight: 100;
+    font-size: 0.8rem;
+    margin-top: 0px;
+}
+
+.body2-flex h3 {
+    font-weight: 100;
+    font-size: 0.8rem;
+    margin-top: 0px;
+}
+
+a {
+    text-decoration: none;
+   
+
+    color: inherit;
+   
+}
+
+
+footer {
+    position: absolute;
+    
+
+    margin-top: 100px;
+    left: 0;
+    right: 0;
+    height: 80px;
+
+    overflow: hidden;
+    
+
+    color: rgb(70,70,85);
+
+    border-top: solid 1px rgb(0,117,215);
+   
+
+    background-color: #d4d4f5;
+}
+
+footer h5 {
+    margin-left: 10%;
+}
+
+@media(max-width: 850px) {
+    
+
+    html {
+        font-size: 14px;
+    }
+
+    header {
+        background-color: rgba(240,240,240,0.85);
+        border-bottom: solid 1px rgba(180,180,180,0.25);
+    }
+
+    header h3 {
+        line-height: 0.5rem;
+        color: rgba(50,50,50,0.75);
+    }
+
+    .mobile-notifier {
+        display: block;
+        
+    }
+
+}
+
+@media(hover: hover) {
+	
+	.body-flex > div:hover {
+        
+
+        transform: scale(1.05);
+       
+        box-shadow: 0px 0px 25px -10px rgba(25,35,25,0.35);
+        
+    }
+	
+	.body2-flex > div:hover {
+       
+
+        transform: scale(1.05);
+        
+
+        box-shadow: 0px 0px 25px -10px rgba(25,35,25,0.35);
+       
+    }
+   
+
+	.body-flex > div:nth-of-type(1):hover {
+        color: transparent;
+		background-image: url(../media/MDDN-352-2.png);
+    }
+
+    .body-flex > div:nth-of-type(2):hover {
+		color: transparent;
+		background-image: url(../media/MDDN-352-3.png);
+    }
+	
+    .body2-flex > div:nth-of-type(1):hover {
+        color: transparent;
+		background-image: url(../media/MDDN-352-4.png);
+    }
+	
+	.body2-flex > div:nth-of-type(2):hover {
+        color: transparent;
+		background-image: url(../media/MDDN-352-5.png);
+    }
+	
+	.body2-flex > div:nth-of-type(3):hover {
+        color: transparent;
+		background-image: url(../media/MDDN-352-6.png);
+    }
+	
+	.body2-flex > div:nth-of-type(4):hover {
+        color: transparent;
+		background-image: url(../media/MDDN-352-7.png);
+    }
+
+
+}
